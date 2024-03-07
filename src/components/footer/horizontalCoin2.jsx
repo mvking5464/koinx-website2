@@ -5,14 +5,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SampleNextArrow, SamplePrevArrow } from "../slider.jsx";
 
-const HorizontalCoin = ({ text }) => {
+const HorizontalCoin2 = ({ text }) => {
   const { response } = UseAxios("search/trending");
 
   var settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 2,
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
@@ -36,4 +36,4 @@ const HorizontalCoin = ({ text }) => {
   );
 };
 
-export default HorizontalCoin;
+export default HorizontalCoin2;
