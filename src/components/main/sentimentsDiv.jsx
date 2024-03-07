@@ -8,6 +8,7 @@ import {
 } from "../../assets/logo";
 import CardComponent from "../cardComponet.jsx";
 import KeyEventsCard from "./keyEventsCard.jsx";
+import KeyEventsCard2 from "./keyEventsCard2.jsx";
 
 export default function SentimentsDiv() {
   //
@@ -24,7 +25,12 @@ export default function SentimentsDiv() {
             <InformationIcon />
           </span>
         </div>
-        <KeyEventsCard />
+        <div className="md:block hidden ">
+          <KeyEventsCard />
+        </div>
+        <div className="md:hidden block ">
+          <KeyEventsCard2 />
+        </div>
         <div className=" flex items-center">
           <span className=" font-semibold font-sans mr-2 text-gray-800">
             Analyst Estimates
