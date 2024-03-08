@@ -1,8 +1,6 @@
 import { numberWithCommas } from "../calculation.js";
 
 const FootGraph = ({ value }) => {
-  //   console.log(value);
-  //   console.log(value.symbol);
   const changes = value.data.price_change_percentage_24h.usd;
   const calculate = (Math.round(changes * 100) / 100).toFixed(2);
   let totalCap = numberWithCommas(value.data.market_cap_btc);
