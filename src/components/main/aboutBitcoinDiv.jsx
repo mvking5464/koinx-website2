@@ -55,7 +55,7 @@ export default function AboutBitcoinDiv() {
         <h3 className=" font-bold text-2xl font-sans divide-green-300 divide-y-2 text-[#3E424A] leading-6">
           Already holding Bitcoin?
         </h3>
-        <div className=" grid grid-cols-2">
+        <div className=" grid md:grid-cols-2 grid-cols-1">
           <ColorfulCard
             img={"/mobileOnly.svg"}
             text={"Calculate Your Profits"}

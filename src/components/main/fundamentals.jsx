@@ -12,20 +12,21 @@ const Fundamentals = () => {
           <InformationIcon />
         </span>
       </div>
-      <div className="grid gap-x-8 md:grid-cols-2 grid-cols-1">
+      <div className="grid gap-x-8 md:grid-cols-2 md:grid-rows-5 md:grid-flow-col grid-cols-1">
         <LightDarkText lText={"Bitcoin Price"} dText={"$16,815.46"} />
-        <LightDarkText lText={"Market Cap"} dText={"$323,507,209,047"} />
         <LightDarkText
           lText={"24h Low / 24h High"}
           dText={"$16,382.07 / $16,874.12"}
         />
-        <LightDarkText lText={"Market Cap Dominance"} dText={"38.343%"} />
         <LightDarkText
           lText={"7d Low / 7d High"}
-          dText={"$16,382.07_/_$16,874.12"}
+          dText={"$16,382.07 / $16,874.12"}
         />
-        <LightDarkText lText={"Volume / Market Cap"} dText={"0.0718"} />
         <LightDarkText lText={"Trading Volume"} dText={"$23,249,202,782"} />
+        <LightDarkText lText={"Market Cap Rank"} dText={"#1"} />
+        <LightDarkText lText={"Market Cap"} dText={"$323,507,209,047"} />
+        <LightDarkText lText={"Market Cap Dominance"} dText={"38.343%"} />
+        <LightDarkText lText={"Volume / Market Cap"} dText={"0.0718"} />
         <LightDarkText
           lText={"All-Time High"}
           dText={"$69,044.77"}
@@ -33,8 +34,6 @@ const Fundamentals = () => {
           rgText={"-75.6%"}
           date1={"Nov 10,2021 (about 1 year)"}
         />
-
-        <LightDarkText lText={"Market Cap Rank"} dText={"#1"} />
         <LightDarkText
           lText={"All-Time Low"}
           dText={"$67.81"}

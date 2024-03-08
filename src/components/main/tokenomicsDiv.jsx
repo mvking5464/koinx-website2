@@ -7,15 +7,15 @@ export default function TokenomicsDiv() {
   //
 
   return (
-    <div>
+    <div className="hidden md:block">
       <CardComponent>
         <h3 className=" font-bold text-2xl font-sans">Tokenomics</h3>
-        <h5 className=" font-bold text-1xl font-sans">Initial distribution</h5>
-        <div className="grid grid-cols-4 ">
-          <div className=" bg-blue-20 col-span-1">
+        <h5 className=" text-lg font-sans">Initial distribution</h5>
+        <div className="flex ">
+          <div className=" bg-blue-20">
             <Circle />
           </div>
-          <div className="col-span-3 flex flex-col justify-center gap-6 ml-6 bg-slate-40">
+          <div className=" ml-6 flex flex-col justify-center gap-6 ">
             <div>
               <BlueCircle />
               <span className=" ml-4 font-sans text-sm">

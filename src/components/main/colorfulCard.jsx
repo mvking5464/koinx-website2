@@ -4,7 +4,7 @@ const ColorfulCard = ({ img, text, color }) => {
   return (
     <>
       <div className={` flex rounded-md m-2 mr-4 p-4 pl-2 py-2 ${color}`}>
-        <div>
+        <div className=" object-contain ">
           <img src={img} alt="img" />
         </div>
         <div className="ml-6 my-2">
