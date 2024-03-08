@@ -8,15 +8,15 @@ const FootGraph = ({ value }) => {
 
   return (
     <div>
-      <div className=" border-solid border rounded-md border-gray-500 p-4 m-4 ">
+      <div className=" border-solid border rounded-md border-[#E3E3E3] p-4 m-4 ">
         <div className=" flex items-center gap-2 mb-2">
           <img className="w-6 h-5 " src={value.small} alt="" />
           <span>{value.symbol}</span>
           <span
             className={`${
               calculate > 0
-                ? "text-green-500 bg-green-200"
-                : "text-red-500 bg-red-200"
+                ? "text-[#32BE88] bg-green-200 text-sm"
+                : "text-[#E96975] bg-red-200 text-sm"
             }`}
           >
             {finalCal}

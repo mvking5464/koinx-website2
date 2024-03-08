@@ -21,7 +21,7 @@ const HorizontalCoin = ({ text }) => {
   return (
     <div className=" w-auto">
       <div></div>
-      <h3 className=" font-bold text-2xl font-sans ml-4">{text}</h3>
+      <h3 className=" text-2xl font-sans ml-4">{text}</h3>
       <Slider {...settings}>
         {response &&
           response.coins.map((i) => {
