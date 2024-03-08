@@ -2,7 +2,7 @@ const TeamComponent = ({ image, name, designation, information }) => {
   return (
     <>
       <div
-        className={` flex rounded-md m-2 my-6 mr-4 p-4 pl-4 py-2 bg-[#E8F4FD]`}
+        className={` flex flex-col md:flex-row items-center rounded-md m-2 my-6 mr-4 p-4 pl-4 py-2 bg-[#E8F4FD]`}
       >
         <div>
           <div className="flex flex-col items-center font-inter ml-3">
