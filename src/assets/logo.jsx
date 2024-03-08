@@ -1084,3 +1084,29 @@ export const DropDownIcon = () => (
     />
   </svg>
 );
+
+export const SmallTriangle = () => (
+  <svg
+    width="12"
+    height="8"
+    viewBox="0 0 12 8"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clip-path="url(#clip0_57_607)">
+      <rect
+        x="5.65002"
+        y="2.34009"
+        width="8.00001"
+        height="8.00001"
+        transform="rotate(45 5.65002 2.34009)"
+        fill="black"
+      />
+    </g>
+    <defs>
+      <clipPath id="clip0_57_607">
+        <rect width="12" height="8" fill="white" />
+      </clipPath>
+    </defs>
+  </svg>
+);

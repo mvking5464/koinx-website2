@@ -10,7 +10,7 @@ export default function TrendingCoins() {
   // console.log(response && response.coins[2].item.coin_id + "OK");
 
   return (
-    <div className="bg-white rounded-xl m-2 ml-2 p-2 mr-10 font-sans">
+    <div className="bg-white rounded-xl m-2 ml-2 p-2 md:mr-10 font-sans">
       <div className="p-3">
         <h2>Trending Coins (24h)</h2>
         {response &&

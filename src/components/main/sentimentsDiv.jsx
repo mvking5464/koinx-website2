@@ -49,7 +49,6 @@ export default function SentimentsDiv() {
           <div className="col-span-5 my-auto">
             <div className=" grid md:grid-cols-10 grid-cols-5 font-sans text-slate-500 py-2 text-sm md:mr-20 md:ml-0 ml-2">
               <div className="m-auto ">Buy</div>
-              {/* <div className=" col-span-3 bg-[#00B386] rounded-md h-2  my-auto"></div> */}
               <div className=" md:col-span-9 col-span-4 my-auto flex  ">
                 <div className="bg-[#00B386] h-2 w-[76%] inline-block rounded-md my-auto"></div>
                 <div className=" ml-2">76%</div>
@@ -71,37 +70,6 @@ export default function SentimentsDiv() {
             </div>
           </div>
         </div>
-        {/* <div className=" grid grid-cols-5">
-          <div className=" col-span-1 flex items-center justify-center">
-            <div className=" w-10 h-10 mx-auto  items-center rounded-full p-8 m-4 bg-green-50 text-[#0FBA83] font-semibold font-sans text-3xl text-center ">
-              <span>76</span>
-              <span className=" text-sm">%</span>
-            </div>
-          </div>
-          <div className=" col-span-4 flex flex-col justify-around font-sans text-slate-500 py-4 text-sm">
-            <div>
-              <span>Buy</span>
-              <span className=" mx-4">
-                <GreenLine />
-              </span>
-              <span>76%</span>
-            </div>
-            <div>
-              <span>Hold</span>
-              <span className=" mx-4">
-                <GreyLine />
-              </span>
-              <span>8%</span>
-            </div>
-            <div>
-              <span>Sell</span>
-              <span className=" mx-4">
-                <RedLine />
-              </span>
-              <span>16%</span>
-            </div>
-          </div>
-        </div> */}
       </CardComponent>
     </div>
   );

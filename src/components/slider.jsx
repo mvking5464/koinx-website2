@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Slider from "react-slick";
-import { SliderRight } from "../assets/logo";
+// import Slider from "react-slick";
+// import { SliderRight } from "../assets/logo";
 
 export function SampleNextArrow(props) {
   const { className, style, onClick } = props;

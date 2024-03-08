@@ -59,12 +59,12 @@ export default function AboutBitcoinDiv() {
           <ColorfulCard
             img={"/mobileOnly.svg"}
             text={"Calculate Your Profits"}
-            color={"bg-gradient-to-r from-[#79F1A4] to-[#0E5CAD]"}
+            color={"bg-gradient-to-br from-[#79F1A4] to-[#0E5CAD]"}
           />
           <ColorfulCard
             img={"/compMobile.svg"}
             text={"Calculate Your tax liability"}
-            color={"bg-gradient-to-r from-[#FF9865] to-[#EF3031]"}
+            color={"bg-gradient-to-br from-[#FF9865] to-[#EF3031]"}
           />
         </div>
         <p className="font-sans text-sm text-[#3E424A]  my-4  leading-6">

@@ -8,10 +8,10 @@ const FootGraph = ({ value }) => {
 
   return (
     <div>
-      <div className=" border-solid border rounded-md border-[#E3E3E3] p-4 m-4 ">
+      <div className=" border-solid border rounded-md border-[#E3E3E3] p-4 md:m-4 m-1 overflow-hidden">
         <div className=" flex items-center gap-2 mb-2">
           <img className="w-6 h-5 " src={value.small} alt="" />
-          <span>{value.symbol}</span>
+          <span className=" text-sm md:text-base">{value.symbol}</span>
           <span
             className={`${
               calculate > 0
@@ -27,7 +27,7 @@ const FootGraph = ({ value }) => {
         </div>
         <div>
           <img
-            className="stroke-blue-500"
+            className="stroke-blue-500 md:w-auto w-[80%]"
             src={value.data.sparkline}
             alt="graph"
           />

@@ -8,7 +8,7 @@ export default function GetStartedDiv() {
 
   return (
     // <CardComponent>
-    <div className="p-5 text-white bg-[#0052FE] rounded-xl m-2 mt-12 mr-10">
+    <div className="p-5 text-white bg-[#0052FE] rounded-xl m-2 md:mt-12 mt-4 md:mr-10">
       <div className=" flex flex-col items-center justify-center">
         <div>
           <h3 className=" font-semibold font-sans text-2xl text-center px-9">
